@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w==" crossorigin="anonymous" />
     <title>Apipond</title>
 </head>
 <body>
-    <div class="myport">
+    <div class="myport" id="fullPage">
         <header>
-            <nav>
-                <div class="logo-container">AP</div>
-                <h2 class="header-text">APIPOND</h2>
-                <div class="hamburger-menu">
-                    <img src="./iconmonstr-menu-thin.svg" alt="">
-                </div>
-            </nav>
+            
         </header>
         <main class="container">
-            <section class="section-container">
+            <section class="section-container section">
+                <nav>
+                    <div class="logo-container">AP</div>
+                    <h2 class="header-text">APIPOND</h2>
+                    <div class="hamburger-menu">
+                    </div>
+                </nav>
                 <div class="home-container">
                     <div class="homepages">
                         <div>The way we expected is <br> our perception to the world</div>
@@ -35,7 +36,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-container about">
+            <section class="section-container about section" id="2">
                 <div class="about-head">
                     ABOUT
                 </div>
@@ -104,7 +105,7 @@
                     </div>
                 </div>
             </section>
-            <section class="achievement">
+            <section class="achievement section" id="3">
                 <div class="upper-achievement"></div>
                 <div class="middle-achieve">
                     <div class="up-achieve-box">
@@ -129,7 +130,7 @@
                 </div>
             </section>
 
-            <section class="section-container ambition">
+            <section class="section-container ambition section" id="4">
                 <div class="ambition-container">
                     <div class="ambition-head">
                         <div class="ambition-text">ABSTRACTION</div>
@@ -152,11 +153,23 @@
     </div>
 
     <footer>
+        <div class="hamburger-menu-fix"><a href=""><img src="./iconmonstr-menu-thin.svg" alt=""></a></div>
         <div class="progress-cir"></div>
         <div id="websiteFrameTop" class="websiteFrame"></div>
         <div id="websiteFrameRight" class="websiteFrame"></div>
         <div id="websiteFrameBottom" class="websiteFrame"></div>
         <div id="websiteFrameLeft" class="websiteFrame"></div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js" integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw==" crossorigin="anonymous"></script>
+
+    <script>
+        new fullpage("#fullPage", {
+            autoScrolling: true,
+            navigation: true,
+            animateAnchor: true,
+            parallax: true,
+	    parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
+        })
+    </script>
 </body>
 </html>
