@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+body {
+    padding: 0;
+    background-color: #EDE9E0;
+    scroll-behavior: smooth;
+}
+
+.myport {
+    width: 100%;
+}
+
+/**Section style**/
+
+.section-container {
+    height: 86vh;
+}
+
+.about {
+    height: 100vh;
+}
+
+.achievement {
+    height: 100vh;
+}
+
+.ambition {
+    height: 100vh;
+}
+/** Home Page section**/
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 10vh;
+    margin: auto;
+    padding: 1% 0 0 0;
+    background-color: none;
+    align-items: center;
+}
+
+.logo-container,
+.header-text, 
+.hamburger-menu {
+    display: flex;
+    margin: 1%;
+}
+
+.logo-container {
+    flex: 1;
+    font-size: 30px;
+}
+
+.header-text {
+    flex: 1;
+    font-size: 35px;
+    justify-content: center;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.hamburger-menu img{
+    height: 50%;
+}
+
+
+.home-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 5%;
+}
+
+.homepages {
+    grid-column: 2;
+    display: flex;
+    align-self: end;
+    margin: 0 0 10% -3%;
+}
+
+.line-bottom {
+    width: 7vw;
+    height: 1px;
+    background-color: black;
+    align-self: flex-end;
+    margin: 0 0 0 20%;
+}
+
+.main-object {
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: none;
+    position: relative;
+}
+
+.text-main{
+    align-items: center;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    transform: translate(0, -14.2vh);
+}
+
+.text-main h1{
+    font-size: 8.6vw;
+    margin: 0 0 -8% 0;
+}
+
+
+.main-object img{
+    position: relative;
+    align-self: center;
+    height: 30vw;
+    transform: translate(0, -10vh);
+}
+
+/**About**/
+.about-head {
+    margin: auto;
+    width: 95%;
+    height: 25vh;
+    display: flex;
+    position: relative;
+    font-size: 15vw;
+    color: #3F3F3F;
+}
+
+.grid-about {
+    width: 100%;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 3.5% 40% 53% 3.5%;
+    grid-auto-flow: column;
+}
+
+.leftside-detail {
+    padding: 15vh 0 0 0;
+    grid-column: 2;
+    color: #3F3F3F;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-about {
+    margin: 0 0 5vh 0;
+    font-size: 45px;
+}
+
+.detail-about {
+    font-size: 45px;
+}
+
+.ending-text-about {
+    align-items: flex-end;
+    display: flex;
+    margin: 0 -3% 10% 0;
+    width: 100%;
+    height: 100%;
+}
+
+.rightside-detail {
+    padding: 15vh 0 0 0;
+    grid-column: 3;
+    color: #3F3F3F;
+}
+
+/**skill bar**/
+.skill {
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+}
+
+.skill-bigitem {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    display: flex;
+    margin: 0 0 5vh 0;
+    width: 30%;
+}
+
+.skill-bars {
+    grid-column: 4;
+    padding: 15vh 0 0 0;
+    color: #3F3F3F;
+}
+
+.skill-bar {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.bar-skill {
+    margin: 0 0 6vh 10%;
+}
+
+.blackbar {
+    height: 10px;
+    width: 200px;
+    background-color: black;
+}
+
+.whitebar {
+    height: 10px;
+    width: 20vw;
+    background-color: white;
+} 
+
+/**Ambition**/
+.ambition-container {
+    width: 100%;
+    display: grid;
+    height: 90%;
+    grid-template-columns: 3.5% 10% 83% 3.5%;
+}
+
+.ambition-head {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    grid-column: 2;
+    margin: 0 0 0 0;
+    
+}
+
+.ambition-text {
+    display: flex;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 10VH;
+    padding: 60% 0 0 0;
+    color: #3F3F3F;
+}
+
+.text-para {
+    display: flex;
+    width: 80%;
+    height: 100%;
+}
+
+.realtext-para {
+    padding: 8% 10% 10% 0%;
+    font-size: 35px;
+}
+
+.ending-ambition {
+    width: 100%;
+    height: 5%;
+    display: flex;
+}
+
+.ending-text-ambition {
+    display: flex;
+    width: 30vw;
+    align-items: flex-end;
+    margin: 0% 0% 0% 5%;
+}
+
+.ambition-line-add {
+    width: 30vw;
+    margin: 0 0 0 10%;
+}
+
+/**Achievements**/
+
+.upper-achievement {
+    width: 100%;
+    height: 10vh;
+}
+
+.middle-achieve {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    flex-direction: column;
+}
+
+.down-chieve {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.up-achieve-box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh auto;
+}
+
+.achieve-box {
+    width: 22vw;
+    height: 12vw;
+    background-color: #3F3F3F;
+}
+
+.ending-text-achieve {
+    display: flex;
+    width: 30vw;
+    align-items: flex-end;
+    margin: 0% 0% 3% 5%;
+}
+
+
+.achievement-text {
+    font-size: 3vw;
+    align-self: flex-end;
+    margin: 0% 10% 3% 0%;
+}
+
+/**Frame**/
+.websiteFrame {
+    position: fixed;
+    z-index: 990;
+    background-color: white;
+ }
+ 
+ #websiteFrameTop {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2vh;
+ }
+ 
+ #websiteFrameRight {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 2vh;
+ }
+ 
+ #websiteFrameBottom {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2vh;
+ }
+ 
+ #websiteFrameLeft {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 2vh;
+ }
+
+/**Progress Circular**/
+.progress-cir {
+    position: fixed;
+    z-index: 980;
+    height: 30px;
+    width: 30px;
+    right: 4.5%;
+    bottom: 7.5%;
+    background-color: none;
+    border: black solid 1px;
+    border-radius: 100%;
+}
+
