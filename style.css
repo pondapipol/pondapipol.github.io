@@ -1,396 +1,703 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Cormorant Garamond', serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cormorant Garamond", serif;
 }
 
 body {
-    padding: 0;
-    background-color: #EDE9E0;
-    scroll-behavior: smooth;
+  padding: 0;
+  background-color: #ede9e0;
+  scroll-behavior: smooth;
 }
 
 .myport {
-    width: 100%;
+  width: 100%;
 }
 
 /**Section style**/
 
 .section-container {
-    height: 96vh;
+  height: 96vh;
 }
 
 .about {
-    height: 100vh;
+  height: 100vh;
 }
 
 .achievement {
-    height: 100vh;
+  height: 100vh;
 }
 
 .ambition {
-    height: 100vh;
+  height: 100vh;
 }
 /** Home Page section**/
 
 nav {
-    display: flex;
-    justify-content: center;
-    width: 95%;
-    height: 10vh;
-    margin: auto;
-    padding: 1% 0 0 0;
-    background-color: none;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  height: 10vh;
+  margin: auto;
+  padding: 1% 0 0 0;
+  background-color: none;
+  align-items: center;
 }
 
 .logo-container,
-.header-text, 
+.header-text,
 .hamburger-menu {
-    display: flex;
-    margin: 1%;
+  display: flex;
+  margin: 1%;
 }
 
 .logo-container {
-    flex: 1;
-    font-size: 30px;
+  flex: 1;
+  font-size: 30px;
 }
 
 .header-text {
-    flex: 1;
-    font-size: 35px;
-    justify-content: center;
+  flex: 1;
+  font-size: 35px;
+  justify-content: center;
 }
 
 .hamburger-menu {
-    display: flex;
-    flex: 1;
-    justify-content: flex-end;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
 }
 
-.hamburger-menu img{
-    height: 50%;
+.hamburger-menu img {
+  height: 50%;
 }
-
 
 .home-container {
-    height: 89%;
-    display: grid;
-    grid-template-columns: 5% 1fr 1fr 1fr 5%;
+  height: 89%;
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr 1fr 5%;
 }
 
 .homepages {
-    grid-column: 2;
-    display: flex;
-    align-self: end;
-    margin: 0 0 10% -3%;
+  grid-column: 2;
+  display: flex;
+  align-self: end;
+  margin: 0 0 10% -3%;
 }
 
 .line-bottom {
-    width: 7vw;
-    height: 1px;
-    background-color: black;
-    align-self: flex-end;
-    margin: 0 0 0 20%;
+  width: 7vw;
+  height: 1px;
+  background-color: black;
+  align-self: flex-end;
+  margin: 0 0 0 20%;
 }
 
 .main-object {
-    grid-column: 3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: none;
-    position: relative;
+  grid-column: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: none;
+  position: relative;
 }
 
-.text-main{
-    align-items: center;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    transform: translate(0, -14.2vh);
+.text-main {
+  align-items: center;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  transform: translate(0, -14.2vh);
 }
 
-.text-main h1{
-    font-size: 8.6vw;
-    margin: 0 0 -8% 0;
+.text-main h1 {
+  font-size: 8.7vw;
+  margin: 0 0 -8% 0;
 }
 
-
-.main-object img{
-    position: relative;
-    align-self: center;
-    height: 30vw;
-    transform: translate(0, -10vh);
+.main-object img {
+  position: relative;
+  align-self: center;
+  height: 30vw;
+  transform: translate(0, -10vh);
 }
 
 /**About**/
 .about-head {
-    margin: auto;
-    width: 95%;
-    height: 25vh;
-    display: flex;
-    position: relative;
-    font-size: 15vw;
-    color: #3F3F3F;
+  margin: auto;
+  width: 95%;
+  height: 20vh;
+  display: flex;
+  position: relative;
+  font-size: 15vw;
+  color: #3f3f3f;
 }
 
 .grid-about {
-    width: 100%;
-    height: 75vh;
-    display: grid;
-    grid-template-columns: 3.5% 40% 53% 3.5%;
-    grid-auto-flow: column;
+  width: 100%;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 3.5% 40% 53% 3.5%;
+  grid-auto-flow: column;
 }
 
 .leftside-detail {
-    padding: 15vh 0 0 0;
-    grid-column: 2;
-    color: #3F3F3F;
-    display: flex;
-    flex-direction: column;
+  padding: 15vh 0 0 0;
+  grid-column: 2;
+  color: #3f3f3f;
+  display: flex;
+  flex-direction: column;
 }
 
 .name-about {
-    margin: 0 0 5vh 0;
-    font-size: 45px;
+  margin: 0 0 5vh 0;
+  font-size: 2.6vw;
 }
 
 .detail-about {
-    font-size: 45px;
+  font-size: 2.6vw;
 }
 
 .ending-text-about {
-    align-items: flex-end;
-    display: flex;
-    margin: 0 -3% 10% 0;
-    width: 100%;
-    height: 100%;
+  height: 5vh;
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  margin: 0% 0% 3% 70px;
 }
 
 .rightside-detail {
-    padding: 15vh 0 0 0;
-    grid-column: 3;
-    color: #3F3F3F;
+  padding: 15vh 0 0 0;
+  grid-column: 3;
+  color: #3f3f3f;
 }
 
 /**skill bar**/
 .skill {
-    font-size: 45px;
-    display: flex;
-    flex-direction: column;
-    height: 10%;
+  font-size: 2.6vw;
+  display: flex;
+  flex-direction: column;
+  height: 10%;
 }
 
 .skill-bigitem {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .skill-item {
-    display: flex;
-    margin: 0 0 5vh 0;
-    width: 30%;
+  display: flex;
+  margin: 0 0 5vh 0;
+  width: 30%;
 }
 
 .skill-bars {
-    grid-column: 4;
-    padding: 15vh 0 0 0;
-    color: #3F3F3F;
+  grid-column: 4;
+  padding: 15vh 0 0 0;
+  color: #3f3f3f;
 }
 
 .skill-bar {
-    height: 100%;
-    display: flex;
-    align-items: flex-end;
-    
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
 }
 .bar-skill {
-    margin: 0 0 6vh 10%;
+  margin: 0 0 6vh 10%;
 }
 
 .blackbar {
-    height: 10px;
-    width: 200px;
-    background-color: black;
+  height: 10px;
+  width: 200px;
+  background-color: black;
 }
 
 .whitebar {
-    height: 10px;
-    width: 20vw;
-    background-color: white;
-} 
+  height: 10px;
+  width: 20vw;
+  background-color: white;
+}
 
 /**Ambition**/
 .ambition-container {
-    width: 100%;
-    display: grid;
-    height: 90%;
-    grid-template-columns: 3.5% 10% 83% 3.5%;
+  width: 100%;
+  display: grid;
+  height: 90%;
+  grid-template-columns: 3.5% 10% 83% 3.5%;
 }
 
 .ambition-head {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    grid-column: 2;
-    margin: 0 0 0 0;
-    
+  display: flex;
+  height: 100%;
+  width: 100%;
+  grid-column: 2;
+  margin: 0 0 0 0;
 }
 
 .ambition-text {
-    display: flex;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    font-size: 10VH;
-    padding: 60% 0 0 0;
-    color: #3F3F3F;
+  display: flex;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 10vh;
+  padding: 60% 0 0 0;
+  color: #3f3f3f;
 }
 
 .text-para {
-    display: flex;
-    width: 80%;
-    height: 100%;
+  display: flex;
+  width: 80%;
+  height: 100%;
 }
 
 .realtext-para {
-    padding: 8% 10% 10% 0%;
-    font-size: 35px;
+  padding: 8% 10% 10% 0%;
+  font-size: 35px;
 }
 
 .ending-ambition {
-    width: 100%;
-    height: 5%;
-    display: flex;
+  width: 100%;
+  height: 10%;
+  display: flex;
 }
 
 .ending-text-ambition {
-    display: flex;
-    width: 30vw;
-    align-items: flex-end;
-    margin: 0% 0% 0% 5%;
+  display: flex;
+  width: 30vw;
+  align-items: flex-end;
+  margin: 0% 0% 8% 5%;
 }
 
 .ambition-line-add {
-    width: 30vw;
-    margin: 0 0 0 10%;
+  width: 30vw;
+  margin: 0 0 0 10%;
 }
 
 /**Achievements**/
 
 .upper-achievement {
-    width: 100%;
-    height: 10vh;
+  width: 100%;
+  height: 10vh;
 }
 
 .middle-achieve {
-    display: flex;
-    width: 100%;
-    height: 70vh;
-    flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  flex-direction: column;
 }
 
 .down-chieve {
-    width: 100%;
-    height: 20vh;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
 }
 
-.up-achieve-box{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    margin: 5vh auto;
+.up-achieve-box {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5vh auto;
 }
 
 .achieve-box {
-    width: 22vw;
-    height: 12vw;
-    background-color: #3F3F3F;
+  width: 22vw;
+  height: 12vw;
+  background-color: #3f3f3f;
 }
 
 .ending-text-achieve {
-    display: flex;
-    width: 30vw;
-    align-items: flex-end;
-    margin: 0% 0% 3% 5%;
+  display: flex;
+  width: 30vw;
+  align-items: flex-end;
+  margin: 0% 0% 3% 5%;
 }
 
-
 .achievement-text {
-    font-size: 3vw;
-    align-self: flex-end;
-    margin: 0% 10% 3% 0%;
+  font-size: 3vw;
+  align-self: flex-end;
+  margin: 0% 10% 3% 0%;
 }
 
 /**Frame**/
 .websiteFrame {
-    position: fixed;
-    z-index: 990;
-    background-color: white;
- }
- 
- #websiteFrameTop {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 2vh;
- }
- 
- #websiteFrameRight {
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 2vh;
- }
- 
- #websiteFrameBottom {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2vh;
- }
- 
- #websiteFrameLeft {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 2vh;
- }
+  position: fixed;
+  z-index: 990;
+  background-color: white;
+}
+
+#websiteFrameTop {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2vh;
+}
+
+#websiteFrameRight {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 2vh;
+}
+
+#websiteFrameBottom {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2vh;
+}
+
+#websiteFrameLeft {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 2vh;
+}
 
 /**Progress Circular**/
 .progress-cir {
-    position: fixed;
-    z-index: 980;
-    height: 30px;
-    width: 30px;
-    right: 4.5%;
-    bottom: 7.5%;
-    background-color: none;
-    border: black solid 1px;
-    border-radius: 100%;
+  position: fixed;
+  z-index: 980;
+  height: 30px;
+  width: 30px;
+  right: 4.5%;
+  bottom: 7.5%;
+  background-color: none;
+  border: black solid 1px;
+  border-radius: 100%;
 }
 
 /**Hamburger menu**/
 .hamburger-menu-fix {
+  position: fixed;
+  z-index: 980;
+  height: 70px;
+  right: 4.5%;
+  top: 5%;
+  background-color: none;
+}
+
+.hamburger-menu-fix img {
+  height: 50%;
+}
+
+#fp-nav {
+  right: 80px !important;
+}
+
+@media (max-width: 1024px) {
+  /**section 1 **/
+  .text-main h1 {
+    font-size: 100px;
+    margin: 0 0 -8% 0;
+  }
+  .main-object {
+    grid-column: 2;
+  }
+
+  .main-object img {
+    height: 400px;
+  }
+
+  .home-container {
+    height: 89%;
+    display: grid;
+    grid-template-columns: 5% 1fr 5%;
+    grid-template-rows: 95% 5%;
+  }
+
+  .homepages {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    align-self: end;
+    margin: 0 0 50px 0px;
+    width: 100%;
+  }
+
+  .line-bottom {
+    width: 15vw;
+    height: 1px;
+    background-color: black;
+    align-self: flex-end;
+    margin: 0 0 0 20%;
+  }
+
+  /**section 2 **/
+  .grid-about {
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 3.5% 1fr 3.5%;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
+  }
+
+  .about-head {
+    margin: auto;
+    padding: 0 0 0 50px;
+    width: 95%;
+    height: 25vh;
+    display: flex;
+    position: relative;
+    font-size: 20vw;
+    color: #3f3f3f;
+  }
+
+  .leftside-detail {
+    padding: 1vh 0 0 20px;
+    grid-column: 2;
+    grid-row: 1;
+    color: #3f3f3f;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name-about,
+  .detail-about {
+    font-size: 3.5vw;
+  }
+
+  .detail-about {
+    width: 90%;
+  }
+
+  .skill {
+    font-size: 3vw;
+  }
+
+  .rightside-detail {
+    padding: 3vh 10vh 0 20px;
+    grid-row: 2;
+    grid-column: 2;
+    color: #3f3f3f;
+  }
+
+  .skill-item {
+    margin: 0 0 2vh 0;
+  }
+
+  .bar-skill {
+    margin: 1% 0 6vh 0%;
+  }
+
+  .blackbar {
+    width: 20vw;
+  }
+
+  .whitebar {
+    width: 30vw;
+  }
+
+  .ending-text-about {
+    margin: 0% 0% 3% 50px;
+  }
+
+  /**Section 3**/
+  .middle-achieve {
+    flex-direction: row;
+  }
+
+  .up-achieve-box {
+    width: 250px;
+    flex-direction: column;
+  }
+
+  .box-1 {
+    margin: 5vh 5% 5vh auto;
+  }
+
+  .box-2 {
+    margin: 5vh auto 5vh 5%;
+  }
+
+  .achieve-box {
+    width: 250px;
+    height: 150px;
+  }
+
+  .ending-text-achieve {
+    width: 40vw;
+    margin: 0% 0% 65px 60px;
+  }
+
+  .achievement-text {
+    font-size: 35px;
+    align-self: flex-end;
+    margin: 0% 100px 65px 0%;
+  }
+
+  /**section 3**/
+  .ambition-text {
+    font-size: 60px;
+  }
+
+  .realtext-para {
+    padding: 8% 10% 10% 35px;
+    font-size: 30px;
+  }
+
+  .ending-text-ambition {
+    width: 50vw;
+    margin: 0% 0% 5% 5%;
+  }
+
+  /**nav pos**/
+  #fp-nav {
+    right: 50px !important;
+  }
+}
+
+@media (max-width: 376px) {
+  .text-main h1 {
+    font-size: 50px;
+    margin: 0 0 -8% 0;
+  }
+  .main-object img {
+    height: 200px;
+    transform: translate(0, -12.5vh);
+  }
+
+  /**section 1**/
+  nav {
+    width: 85%;
+  }
+
+  .homepages {
+    font-size: 12px;
+    margin: 0 0 50px 20px;
+    width: 100%;
+  }
+
+  /**Section 2**/
+  .about-head {
+    margin: auto;
+    padding: 0 0 0 40px;
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    font-size: 50px;
+    color: #3f3f3f;
+  }
+
+  .grid-about {
+    width: 100%;
+    height: 78vh;
+  }
+
+  .name-about,
+  .detail-about {
+    font-size: 17px;
+    width: 85%;
+  }
+
+  .detail-about {
+    width: 70%;
+  }
+
+  .name-about {
+    margin: 0 0 2vh 0;
+  }
+
+  .skill {
+    font-size: 17px;
+  }
+
+  .skill-bars {
+    padding: 2vh 0 0 0;
+  }
+
+  .skill-item {
+    margin: 0 0 3vh 0;
+  }
+
+  .blackbar {
+    width: 100px;
+  }
+
+  .whitebar {
+    width: 200px;
+  }
+
+  .ending-text-about {
+    margin: 0% 0% 4% 30px;
+    width: 65%;
+    font-size: 12px;
+  }
+
+  /**Section 3**/
+
+  .up-achieve-box {
+    width: 120px;
+    height: 80%;
+  }
+
+  .achieve-box {
+    width: 120px;
+    height: 80px;
+  }
+
+  .box-1 {
+    margin: 2vh 4% 2vh auto;
+  }
+
+  .box-2 {
+    margin: 2vh auto 2vh 4%;
+  }
+
+  .ending-text-achieve {
+    font-size: 12px;
+    width: 60vw;
+    margin: 0% 0% 60px 55px;
+  }
+
+  .ambition-line-add {
+    display: none;
+  }
+
+  .achievement-text {
+    font-size: 15px;
+    align-self: flex-end;
+    margin: 0% 50px 55px 0%;
+  }
+
+  /**Hamburger menu**/
+  .hamburger-menu-fix {
     position: fixed;
     z-index: 980;
     height: 70px;
-    right: 4.5%;
-    top: 5%;
+    right: 7%;
+    top: 3.5%;
     background-color: none;
-}
+  }
 
-.hamburger-menu-fix img{
-    height: 50%;
-}
+  /**section 3**/
+  .ambition-text {
+    padding: 100% 0 0 20%;
+    font-size: 30px;
+  }
 
+  .realtext-para {
+    padding: 15% 10% 10% 10%;
+    font-size: 20px;
+  }
 
-#fp-nav {
-    right: 80px !important;
+  .ending-text-ambition {
+    width: 50vw;
+    margin: 0% 0% 30px 30px;
+  }
+
+  /**nav pos**/
+  #fp-nav {
+    display: none;
+    right: 30px !important;
+  }
+  /**Progress Circular**/
+  .progress-cir {
+    display: none;
+  }
 }
